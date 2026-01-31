@@ -16,7 +16,7 @@ Este proyecto es un bot automatizado desarrollado en Python que consulta publica
 1. Clonar el repositorio.
 2. Crear un archivo `.env` basado en el siguiente esquema:
    ```env
-   BASE_URL=[https://jsonplaceholder.typicode.com](https://jsonplaceholder.typicode.com)
+   BASE_URL=https://jsonplaceholder.typicode.com
    DB_NAME=historico_posts.db
    ENV_TYPE=PRODUCCION
 
