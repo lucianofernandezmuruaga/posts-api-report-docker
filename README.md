@@ -19,6 +19,7 @@ Este proyecto es un bot automatizado desarrollado en Python que consulta publica
    BASE_URL=https://jsonplaceholder.typicode.com
    DB_NAME=historico_posts.db
    ENV_TYPE=PRODUCCION
+   ```
 
 ## 🐳 Docker
 
