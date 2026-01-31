@@ -1,0 +1,20 @@
+version: 1
+disable_existing_loggers: false
+formatters:
+  simple:
+    format: '%(asctime)s | [%(levelname)s] | %(name)s | %(message)s'
+    datefmt: '%d/%m/%Y %H:%M:%S'
+handlers:
+  console:
+    class: logging.StreamHandler
+    formatter: simple
+    level: INFO
+  file:
+    class: logging.FileHandler
+    filename: sistema_monitoreo.log
+    formatter: simple
+    level: DEBUG
+    encoding: utf-8
+root:
+  level: DEBUG
+  handlers: [console, file]
