@@ -1,6 +1,6 @@
 # Sistema de Monitoreo y Auditoría de APIs
 
-Este proyecto es un bot automatizado desarrollado en Python que consulta publicaciones de usuarios, valida la integridad de los datos y mantiene un registro histórico persistente.
+Este proyecto es un bot automatizado desarrollado en Python que consulta publicaciones de la REST API JSONPlaceholder, hace validaciones de datos y elabora un registro histórico.
 
 ## 🚀 Características
 - **Modularización**: Estructura dividida en cliente de API, validador de lógica de negocio (en este caso sólo se chequea la longitud de los títulos) y gestión de base de datos (se almacenan los registros históricos).
